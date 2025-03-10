@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Tinder App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<header>
+  <h1>Tinderboxd</h1>
+</header>
+
+<div class="app">
+  <div id="movie-display">
+    <div id="current-movie"></div>
+    <div class="actions">
+      <button id="skip-button">Don’t Want to Watch</button>
+      <button id="watchlist-button">Add to Watchlist</button>
+      <button id="watched-button">Already Watched</button>
+      <button id="toggle-watchlist">Toggle Watchlist</button>
+
+    </div>
+  </div>
+
+  <aside id="watchlist-sidebar" class="collapsed">
+    <header>
+      <h2>Your Watchlist</h2>
+    </header>
+    <div id="watchlist-container"></div>
+  </aside>
+</div>
+
+<footer>
+</footer>
+
+<script src="app.js"></script>
 </body>
 </html>
